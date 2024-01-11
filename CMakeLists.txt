@@ -35,5 +35,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Age.msg"
   "srv/FollowGPS.srv"
   "msg/TargetCoordinates.msg"
+  "msg/Coordinates.msg"
+  "msg/CA.msg"
 )
 ament_package()
